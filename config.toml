@@ -1,0 +1,37 @@
+baseURL = "/"
+title = "Material de estudo para a PRF"
+theme = "hugo-theme-learn"
+themesdir = "./themes"
+metaDataFormat = "yaml"
+defaultContentLanguageInSubdir= false
+languageCode = "pt"
+defaultContentLanguage = "pt"
+
+[params]
+  description = "Rumo a PRF"
+  author = "Jarzamendia"
+  showVisitedLinks = true
+  disableBreadcrumb = false
+  disableNextPrev = false
+  themeVariant = "green"
+
+[outputs]
+home = [ "HTML", "RSS", "JSON"]
+
+[[menu.shortcuts]]
+name = "<i class='fab fa-fw fa-youtube'></i> Youtube"
+identifier = "yt"
+url = "https://github.com/matcornic/hugo-theme-learn"
+weight = 10
+
+[[menu.shortcuts]]
+name = "<i class='fab fa-fw fa-instagram'></i> Instagram"
+identifier = "ig"
+url = "https://github.com/matcornic/hugo-theme-learn"
+weight = 10
+
+[[menu.shortcuts]]
+name = "<i class='fab fa-fw fa-whatsapp'></i> Whatsapp"
+identifier = "wp"
+url = "https://github.com/matcornic/hugo-theme-learn"
+weight = 10
